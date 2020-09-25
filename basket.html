@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Al Karal</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<section class="basket">
+    <div class="container">
+        <h1>Оформление заказа</h1>
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-8">
+                <div class="basket-step">
+                    <span class="active">1</span>
+                    <h3>Ваша корзина</h3>
+                </div>
+                <div class="basket-product">
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img/main/product-1.png" alt="">
+                        </div>
+                        <div class="product-item-caption">
+                            <h4>«AL KARAL» для МРС</h4>
+                            <p>7000 тг.</p>
+                        </div>
+                    </div>
+                    <div class="product-control">
+                        <div class="count-control">
+                            <button class="btn-plain btn-decrease">
+                                <svg width="12" height="2" viewBox="0 0 12 2" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="2" fill="#A2A5AD"/>
+                                </svg>
+                            </button>
+                            <input type="text" value="0" class="count-input">
+                            <button class="btn-plain btn-increase">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0H5V5H0V7H5V12H7V7H12V5H7V0Z"
+                                          fill="#A2A5AD"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <button class="btn-plain delete-product">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M12.3514 4.80892L11.191 3.64854L8 6.83955L4.80898 3.64854L3.6486 4.80892L6.83962 7.99993L3.64854 11.191L4.80892 12.3514L8 9.16031L11.1911 12.3514L12.3515 11.191L9.16038 7.99993L12.3514 4.80892Z"
+                                      fill="#A2A5AD"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="basket-product">
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img/main/product-1.png" alt="">
+                        </div>
+                        <div class="product-item-caption">
+                            <h4>«AL KARAL» для МРС</h4>
+                            <p>7000 тг.</p>
+                        </div>
+                    </div>
+                    <div class="product-control">
+                        <div class="count-control">
+                            <button class="btn-plain btn-decrease">
+                                <svg width="12" height="2" viewBox="0 0 12 2" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="2" fill="#A2A5AD"/>
+                                </svg>
+                            </button>
+                            <input type="text" value="0" class="count-input">
+                            <button class="btn-plain btn-increase">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0H5V5H0V7H5V12H7V7H12V5H7V0Z"
+                                          fill="#A2A5AD"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <button class="btn-plain delete-product">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M12.3514 4.80892L11.191 3.64854L8 6.83955L4.80898 3.64854L3.6486 4.80892L6.83962 7.99993L3.64854 11.191L4.80892 12.3514L8 9.16031L11.1911 12.3514L12.3515 11.191L9.16038 7.99993L12.3514 4.80892Z"
+                                      fill="#A2A5AD"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="delivery">
+                    <div class="basket-step">
+                        <span>2</span>
+                        <h3>Способ доставки</h3>
+                    </div>
+                    <ul class="nav nav-tabs delivery-tabs deliveryTab">
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tab-login">
+                                <span class="span-radio">
+                                    <em></em>
+                                </span>
+                                <span>Самовывоз</span>
+                                <input type="radio" name="delivery-type" class="radio-hidden">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tab-registr">
+                                <span class="span-radio">
+                                    <em></em>
+                                </span>
+                                <span>Оплата при получении</span>
+                                <input type="radio" name="delivery-type" class="radio-hidden">
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade" id="tab-login">
+                            <div class="delivery-point">
+                                <h3>Выберите точку для самовывоза</h3>
+                                <button class="btn-plain btn-choose call-point">
+                                    Выбрать
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-registr">
+                            <div class="delivery-address">
+                                <h4>Доставка: 1500 тг.</h4>
+                                <div class="delivery-address-fields">
+                                    <input type="text" placeholder="Укажите город" class="input-green input-md">
+                                    <input type="text" placeholder="Улица" class="input-green input-lg">
+                                    <input type="text" placeholder="Подъезд" class="input-green input-xs">
+                                    <input type="text" placeholder="Этаж" class="input-green input-xs">
+                                    <input type="text" placeholder="Квартира" class="input-green input-xs">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="delivery-point price-notification">
+                        <h3>Минимальная сумма покупки 10 000 тг. <br>  Доставка: 1500 тг.</h3>
+                        <a class="btn-plain btn-choose" href="#">
+                            Перейти к покупке
+                        </a>
+                    </div>
+                </div>
+                <div class="basket-payment">
+                    <div class="basket-step">
+                        <span>3</span>
+                        <h3>Способ оплаты</h3>
+                    </div>
+                    <ul class="nav nav-tabs delivery-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="payment.html">
+                                <span class="span-radio">
+                                    <em></em>
+                                </span>
+                                <span>Оплата картой на сайте</span>
+                                <input type="radio" name="payment-type" class="radio-hidden">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#">
+                                <span class="span-radio">
+                                    <em></em>
+                                </span>
+                                <span>Оплата при получении</span>
+                                <input type="radio" name="payment-type" class="radio-hidden">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="basket-payment">
+                    <div class="basket-step">
+                        <span>4</span>
+                        <h3>Ваши данные</h3>
+                    </div>
+                    <div class="custom-fields">
+                        <div class="form-half">
+                            <input type="text" class="input-green" placeholder="Ф.И.О.">
+                            <input type="text" class="input-green" placeholder="Номер телефона">
+                        </div>
+                        <textarea name="" placeholder="Комментарий к заказу"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 offset-xl-1">
+
+                <div class="basket-side">
+                    <div class="basket-side-total">
+                        <h3>Итого</h3>
+                        <h3>12 000 тг.</h3>
+                    </div>
+                    <div class="basket-side-item">
+                        <span>Количество товаров</span>
+                        <span>3 шт.</span>
+                    </div>
+                    <div class="basket-side-item">
+                        <span>Доставкав</span>
+                        <span>1500 тг.</span>
+                    </div>
+                    <div class="basket-side-static">
+                        <h3>Способ доставки</h3>
+                        <p>Доставка</p>
+                        <span>
+                            г. Астана, проспект Мангилик Ел 111, 8 подъезд, 17 этаж, 128 кв.
+                        </span>
+                    </div>
+                    <div class="basket-side-static">
+                        <h3>Способ оплаты</h3>
+                        <p>Картой онлайн</p>
+                    </div>
+                    <div class="basket-side-base">
+                        <button class="btn-plain btn-orange" disabled>Оплатить</button>
+                    </div>
+                </div>
+                <div class="offer-link">
+                    <p>Оформляя заказ вы соглашаетесь с условиями</p>
+                    <a href="offer.html">Публичной оферты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modalBox">
+    <div class="modalBox-side">
+        <div class="deliveryPoint active">
+            <div class="deliveryPoint-head">
+                <h3>ИП “Юсупов Н.У.”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>Западно-Казахстанская область, г. Уральск, Сарайшык, 28 Б</p>
+            </div>
+        </div>
+        <div class="deliveryPoint">
+            <div class="deliveryPoint-head">
+                <h3>ТОО “Jamis Innovation”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>г. Нур-Султан</p>
+            </div>
+        </div>
+        <div class="deliveryPoint">
+            <div class="deliveryPoint-head">
+                <h3>ИП “Юсупов Н.У.”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>Западно-Казахстанская область, г. Уральск, Сарайшык, 28 Б</p>
+            </div>
+        </div>
+        <div class="deliveryPoint">
+            <div class="deliveryPoint-head">
+                <h3>ТОО “Jamis Innovation”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>г. Нур-Султан</p>
+            </div>
+        </div>
+        <div class="deliveryPoint">
+            <div class="deliveryPoint-head">
+                <h3>ИП “Юсупов Н.У.”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>Западно-Казахстанская область, г. Уральск, Сарайшык, 28 Б</p>
+            </div>
+        </div>
+        <div class="deliveryPoint">
+            <div class="deliveryPoint-head">
+                <h3>ТОО “Jamis Innovation”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>г. Нур-Султан</p>
+            </div>
+        </div>
+        <div class="deliveryPoint">
+            <div class="deliveryPoint-head">
+                <h3>ИП “Юсупов Н.У.”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>Западно-Казахстанская область, г. Уральск, Сарайшык, 28 Б</p>
+            </div>
+        </div>
+        <div class="deliveryPoint">
+            <div class="deliveryPoint-head">
+                <h3>ТОО “Jamis Innovation”</h3>
+            </div>
+            <div class="deliveryPoint-body">
+                <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.98049 19.7407L8 18.8649L9.01951 19.7407L8 21L6.98049 19.7407ZM8.84794 17.7736C10.4299 15.6836 13.6725 11.1211 13.6725 8.83712C13.6725 5.8163 11.1328 3.36743 8 3.36743C4.86716 3.36743 2.32749 5.8163 2.32749 8.83712C2.32749 11.1211 5.57009 15.6836 7.15206 17.7736C7.66246 18.4479 8 18.8649 8 18.8649C6.98049 19.7407 6.98062 19.7408 6.98049 19.7407L6.97988 19.7399L6.97495 19.7338L6.96133 19.7169L6.91085 19.6538C6.86723 19.5992 6.80409 19.5197 6.72422 19.418C6.56453 19.2146 6.33765 18.9223 6.06594 18.5625C5.5235 17.8444 4.79758 16.8512 4.06909 15.7574C3.34391 14.6685 2.59866 13.4538 2.02954 12.2962C1.4875 11.1936 1 9.93958 1 8.83712C1 4.9774 4.21797 2 8 2C11.782 2 15 4.9774 15 8.83712C15 9.93958 14.5125 11.1936 13.9705 12.2962C13.4013 13.4538 12.6561 14.6685 11.9309 15.7574C11.2024 16.8512 10.4765 17.8444 9.93406 18.5625C9.66235 18.9223 9.43547 19.2146 9.27578 19.418C9.19591 19.5197 9.13277 19.5992 9.08915 19.6538L9.03867 19.7169L9.02505 19.7338L9.02012 19.7399C9.01999 19.7401 9.01951 19.7407 8 18.8649C8 18.8649 8.33754 18.4479 8.84794 17.7736ZM7.9693 10.2046C8.51916 10.2046 8.96491 9.74543 8.96491 9.17902C8.96491 8.61261 8.51916 8.15345 7.9693 8.15345C7.41944 8.15345 6.97369 8.61261 6.97369 9.17902C6.97369 9.74543 7.41944 10.2046 7.9693 10.2046ZM10.2924 9.17902C10.2924 10.5006 9.25231 11.572 7.9693 11.572C6.68629 11.572 5.6462 10.5006 5.6462 9.17902C5.6462 7.8574 6.68629 6.78601 7.9693 6.78601C9.25231 6.78601 10.2924 7.8574 10.2924 9.17902Z"
+                          fill="#93D33E"/>
+                </svg>
+                <p>г. Нур-Султан</p>
+            </div>
+        </div>
+    </div>
+    <div class="modalBox-map">
+        <div id="map" style="width: 100%; height: 100%"></div>
+    </div>
+</div>
+<div class="overlay"></div>
+<script src="js/libs.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+
+    function init() {
+        // Создание карты.
+        var myMap = new ymaps.Map("map", {
+            // Координаты центра карты.
+            // Порядок по умолчанию: «широта, долгота».
+            // Чтобы не определять координаты центра карты вручную,
+            // воспользуйтесь инструментом Определение координат.
+            center: [43.270112, 76.935233],
+            controls: ['zoomControl', 'geolocationControl'],
+            // Уровень масштабирования. Допустимые значения:
+            // от 0 (весь мир) до 19.
+            zoom: 15
+        });
+        // Создаем геообъект с типом геометрии "Точка".
+        myGeoObject = new ymaps.GeoObject({
+            // Описание геометрии.
+            geometry: {
+                type: "Point",
+                coordinates: [55.8, 37.8]
+            },
+            // Свойства.
+            properties: {
+                // Контент метки.
+                iconContent: 'Я тащусь',
+                hintContent: 'Ну давай уже тащи'
+            }
+        }, {
+            // Опции.
+            // Иконка метки будет растягиваться под размер ее содержимого.
+            preset: 'islands#blackStretchyIcon',
+            // Метку можно перемещать.
+            draggable: true
+        }),
+            myPieChart = new ymaps.Placemark([
+                55.847, 37.6
+            ], {
+                // Данные для построения диаграммы.
+                data: [
+                    {weight: 8, color: '#0E4779'},
+                    {weight: 6, color: '#1E98FF'},
+                    {weight: 4, color: '#82CDFF'}
+                ],
+                iconCaption: "Диаграмма"
+            }, {
+                // Зададим произвольный макет метки.
+                iconLayout: 'default#pieChart',
+                // Радиус диаграммы в пикселях.
+                iconPieChartRadius: 30,
+                // Радиус центральной части макета.
+                iconPieChartCoreRadius: 10,
+                // Стиль заливки центральной части.
+                iconPieChartCoreFillStyle: '#ffffff',
+                // Cтиль линий-разделителей секторов и внешней обводки диаграммы.
+                iconPieChartStrokeStyle: '#ffffff',
+                // Ширина линий-разделителей секторов и внешней обводки диаграммы.
+                iconPieChartStrokeWidth: 3,
+                // Максимальная ширина подписи метки.
+                iconPieChartCaptionMaxWidth: 200
+            });
+        myMap.geoObjects
+            .add(myGeoObject)
+            .add(myPieChart)
+            .add(new ymaps.Placemark([43.270112, 76.935233], {
+                balloonContent: 'цвет <strong>носика Гены</strong>',
+                iconCaption: 'проспект Райымбека д. 165'
+            }, {
+                preset: 'islands#greenDotIconWithCaption'
+            }));
+
+
+    }
+</script>
+<script type="text/javascript">
+
+
+    $(".count-control .btn-plain").click(function () {
+
+        var $input = $(this).closest('.count-control').find('.count-input');
+
+        if ($(this).hasClass('btn-increase'))
+            $input.val(parseInt($input.val()) + 1);
+        else if ($input.val() >= 1)
+            $input.val(parseInt($input.val()) - 1);
+    });
+
+    $(".delivery-tabs .nav-item").click(function () {
+
+        $(this).closest('.nav-tabs').addClass('tab-active');
+
+
+        var $other_radio = $(this).closest('.nav-tabs').find('.radio-hidden');
+        $other_radio.attr('checked', false)
+
+
+        var $radio = $(this).find('.radio-hidden');
+        $radio.attr('checked', true)
+
+    });
+
+
+    $(".deliveryTab .nav-item").click(function () {
+
+        $('.price-notification').addClass('hidden-block');
+
+    });
+
+    $(".call-point").click(function () {
+
+        $('.modalBox').addClass('modal-show');
+        $('.overlay').addClass('showed');
+
+    });
+
+    $(".overlay").click(function () {
+
+        $('.modalBox').removeClass('modal-show');
+        $(this).removeClass('showed');
+
+    });
+</script>
+
+<script type="text/javascript" src="js/lightgallery.min.js"></script>
+<script type="text/javascript" src="js/lightgallery-all.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script>
+    $('.video-gallery').lightGallery();
+    $('.sl-review').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 4,
+        infinite: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
