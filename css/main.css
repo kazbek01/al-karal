@@ -229,8 +229,121 @@ section a:hover, section a:focus {
   -webkit-overflow-scrolling: touch;
 }
 
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url("../fonts/Nova/ProximaNova-Black.eot");
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("../fonts/Nova/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-Black.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-Black.woff") format("woff"), url("../fonts/Nova/ProximaNova-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("../fonts/Nova/ProximaNova-Extrabld.eot");
+  src: local("Proxima Nova Extrabold"), local("ProximaNova-Extrabld"), url("../fonts/Nova/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-Extrabld.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-Extrabld.woff") format("woff"), url("../fonts/Nova/ProximaNova-Extrabld.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url("../fonts/Nova/ProximaNova-SemiboldIt.eot");
+  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-SemiboldIt"), url("../fonts/Nova/ProximaNova-SemiboldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-SemiboldIt.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-SemiboldIt.woff") format("woff"), url("../fonts/Nova/ProximaNova-SemiboldIt.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("../fonts/Nova/ProximaNovaT-Thin.eot");
+  src: local("Proxima Nova Thin"), local("ProximaNovaT-Thin"), url("../fonts/Nova/ProximaNovaT-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNovaT-Thin.woff2") format("woff2"), url("../fonts/Nova/ProximaNovaT-Thin.woff") format("woff"), url("../fonts/Nova/ProximaNovaT-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url("../fonts/Nova/ProximaNova-Light.eot");
+  src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("../fonts/Nova/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-Light.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-Light.woff") format("woff"), url("../fonts/Nova/ProximaNova-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url("../fonts/Nova/ProximaNova-BlackIt.eot");
+  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackIt"), url("../fonts/Nova/ProximaNova-BlackIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-BlackIt.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-BlackIt.woff") format("woff"), url("../fonts/Nova/ProximaNova-BlackIt.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("../fonts/Nova/ProximaNova-BoldIt.eot");
+  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldIt"), url("../fonts/Nova/ProximaNova-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-BoldIt.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-BoldIt.woff") format("woff"), url("../fonts/Nova/ProximaNova-BoldIt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("../fonts/Nova/ProximaNova-ThinIt.eot");
+  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinIt"), url("../fonts/Nova/ProximaNova-ThinIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-ThinIt.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-ThinIt.woff") format("woff"), url("../fonts/Nova/ProximaNova-ThinIt.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("../fonts/Nova/ProximaNova-Bold.eot");
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("../fonts/Nova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-Bold.woff") format("woff"), url("../fonts/Nova/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("../fonts/Nova/ProximaNova-RegularIt.eot");
+  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"), url("../fonts/Nova/ProximaNova-RegularIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-RegularIt.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-RegularIt.woff") format("woff"), url("../fonts/Nova/ProximaNova-RegularIt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("../fonts/Nova/ProximaNova-ExtrabldIt.eot");
+  src: local("Proxima Nova Extrabold Italic"), local("ProximaNova-ExtrabldIt"), url("../fonts/Nova/ProximaNova-ExtrabldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-ExtrabldIt.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-ExtrabldIt.woff") format("woff"), url("../fonts/Nova/ProximaNova-ExtrabldIt.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("../fonts/Nova/ProximaNova-Regular.eot");
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("../fonts/Nova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-Regular.woff") format("woff"), url("../fonts/Nova/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url("../fonts/Nova/ProximaNova-LightIt.eot");
+  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightIt"), url("../fonts/Nova/ProximaNova-LightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-LightIt.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-LightIt.woff") format("woff"), url("../fonts/Nova/ProximaNova-LightIt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url("../fonts/Nova/ProximaNova-Semibold.eot");
+  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("../fonts/Nova/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nova/ProximaNova-Semibold.woff2") format("woff2"), url("../fonts/Nova/ProximaNova-Semibold.woff") format("woff"), url("../fonts/Nova/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
   overflow-x: hidden;
+  font-family: 'Proxima Nova Rg';
 }
 
 header {
@@ -753,6 +866,23 @@ header {
   line-height: 100%;
   letter-spacing: 0.02em;
   color: #231F20;
+}
+
+.delivery-point-list {
+  padding: 20px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.delivery-point-list h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #231F20;
+}
+
+.delivery-point-list h3 + h3 {
+  margin-top: 10px;
 }
 
 .btn-choose {
@@ -1588,7 +1718,7 @@ textarea::-webkit-scrollbar {
 }
 
 .advantage-list li + li {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .bg-green {
@@ -1600,7 +1730,7 @@ textarea::-webkit-scrollbar {
 
 .components {
   margin-right: 10%;
-  margin-top: 185px;
+  margin-top: 60px;
   padding: 34px 58px 14px 180px;
 }
 
@@ -2876,15 +3006,145 @@ article p + h3 {
 }
 
 .modal-plain {
-  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
+  z-index: 9;
   min-width: 880px;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.modal-plain .productItem {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  height: 100%;
+  width: 320px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-plain .productItem-img {
+  padding-bottom: 52px;
+}
+
+.modal-plain .productItem-img span {
+  left: 50%;
+  bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #231F20;
+  top: auto;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.modal-plain .productItem-caption {
+  text-align: center;
+}
+
+.modal-product {
+  display: none;
+}
+
+.productCaption {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 auto auto;
+      -ms-flex: 1 auto auto;
+          flex: 1 auto auto;
+  padding: 40px 70px 20px 40px;
+}
+
+.productCaption .close-modal {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+}
+
+.productCaption h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #231F20;
+  margin-bottom: 16px;
+}
+
+.productCaption p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.productCaption p + p {
+  margin-top: 10px;
+}
+
+.productCaption ul {
+  margin: 20px 0;
+}
+
+.productCaption ul li {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.productCaption ul li span {
+  font-weight: bold;
+  color: #000;
+}
+
+.productCaption h4 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.modal-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.scroll-locked {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -3118,7 +3378,7 @@ article p + h3 {
     font-size: 16px;
   }
   .title {
-    font-size: 26px;
+    font-size: 26px !important;
   }
   .products {
     padding: 30px 0;
@@ -3126,8 +3386,25 @@ article p + h3 {
   .products .title {
     margin-top: 20px;
   }
+  .productItem {
+    padding: 10px;
+  }
   .productItem-img {
-    height: 200px;
+    height: 160px;
+  }
+  .productItem-caption h3 {
+    font-size: 15px;
+  }
+  .productItem-caption p {
+    font-size: 12px;
+  }
+  .productItem-caption h4 {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  .productItem-caption .btn-orange {
+    padding: 10px 5px;
+    font-size: 10px;
   }
   .title-lg {
     font-size: 64px;
@@ -3360,7 +3637,7 @@ article p + h3 {
     transition: all 0.4s ease-out 0s;
     cursor: pointer;
     overflow: hidden;
-    height: 100%;
+    height: 100vh;
   }
   .welcome-item-caption {
     width: 100%;
@@ -3534,6 +3811,43 @@ article p + h3 {
   }
   .consist-detail {
     padding: 10px 20px;
+  }
+  .modal-plain {
+    min-width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  .modal-plain .productCaption {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    padding: 20px 40px 20px 20px;
+  }
+  .modal-plain .productCaption h3 {
+    font-size: 20px;
+  }
+  .modal-plain .productCaption p {
+    font-size: 14px;
+  }
+  .modal-plain .productItem {
+    width: 100%;
+    height: auto;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 
@@ -4092,6 +4406,24 @@ article p + h3 {
   .consist-green {
     margin-left: 0;
     padding: 30px 0;
+  }
+  .modal-product {
+    min-width: 700px;
+    height: auto;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .modal-product .productCaption {
+    padding: 20px 60px 20px 20px;
+  }
+  .modal-product .productCaption h3 {
+    font-size: 20px;
+  }
+  .modal-product .productCaption p {
+    font-size: 14px;
+  }
+  .modal-product .productItem {
+    width: 280px;
   }
 }
 

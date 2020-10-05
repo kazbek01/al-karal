@@ -495,7 +495,7 @@
 <section class="products">
     <div class="container">
         <div class="row row-eq-height">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-height">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-6 col-height">
                 <div class="productItem">
                     <div class="productItem-img">
                         <img src="img/main/prod1.png" alt="">
@@ -510,7 +510,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-height">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-6 col-height">
                 <div class="productItem">
                     <div class="productItem-img">
                         <img src="img/main/prod2.png" alt="">
@@ -525,7 +525,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-height">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-6 col-height">
                 <div class="productItem">
                     <div class="productItem-img">
                         <img src="img/main/prod2.png" alt="">
@@ -608,48 +608,45 @@
     </div>
 
 </section>
-<div class="modal-plain">
-    <div class="row row-eq-height">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-height">
-            <div class="productItem">
-                <div class="productItem-img">
-                    <img src="img/main/prod1.png" alt="">
-                    <span>5 л.</span>
-                    <a href="#" class="show-more">Подробнее</a>
-                </div>
-                <div class="productItem-caption">
-                    <h3>«AL KARAL» кормовая добавкадля КРС</h3>
-                    <p>Для коров и быков</p>
-                    <h4>3500</h4>
-                    <button class="btn-plain btn-orange">Добавить в корзину</button>
-                </div>
-            </div>
+<div class="modal-plain modal-product">
+    <div class="productItem">
+        <div class="productItem-img">
+            <img src="img/main/prod1.png" alt="">
+            <span>5 л.</span>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 col-height">
-            <div class="productCaption">
-                <h3>Инновационная кормовая добавка
-                    «AL KARAL» для роста и развития коров и быков (КРС)</h3>
-                <p>
-                    Применяется курсами от 2 до 6 месяцев для увеличения продуктивности, сохранности поголовья,
-                    нормализации обменных процессов и повышения естественной резистентности организма к инфекциям у
-                    крупного рогатого скота.</p>
-
-                <p>«AL KARAL» вводят в рацион путем смешивания с кормом или питьевой водой.</p>
-                <ul>
-                    <li>
-                        <span>Дозировка</span>– 100 мл в день.
-                    </li>
-                    <li>
-                        <span>Объем</span> - 3 л.
-                    </li>
-                    <li>
-                        <span>Срок хранения</span>- 1 год, хранить в сухих проветриваемых складских помещениях.
-                    </li>
-
-                </ul>
-                <h4>СТ ТОО 181240022550–11-2019</h4>
-            </div>
+        <div class="productItem-caption">
+            <h4>3500</h4>
+            <button class="btn-plain btn-orange">Заказать</button>
         </div>
+    </div>
+    <div class="productCaption">
+        <button class="btn-plain close-modal">
+            <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0204 10.6066L34.6478 33.234L33.2336 34.6482L10.6061 12.0208L12.0204 10.6066Z" fill="#D8E3C9"/>
+                <path d="M34.6478 12.0208L12.0204 34.6482L10.6061 33.234L33.2336 10.6066L34.6478 12.0208Z" fill="#D8E3C9"/>
+            </svg>
+        </button>
+        <h3>Инновационная кормовая добавка
+            «AL KARAL» для роста и развития коров и быков (КРС)</h3>
+        <p>
+            Применяется курсами от 2 до 6 месяцев для увеличения продуктивности, сохранности поголовья,
+            нормализации обменных процессов и повышения естественной резистентности организма к инфекциям у
+            крупного рогатого скота.</p>
+
+        <p>«AL KARAL» вводят в рацион путем смешивания с кормом или питьевой водой.</p>
+        <ul>
+            <li>
+                <span>Дозировка</span>– 100 мл в день.
+            </li>
+            <li>
+                <span>Объем</span> - 3 л.
+            </li>
+            <li>
+                <span>Срок хранения</span>- 1 год, хранить в сухих проветриваемых складских помещениях.
+            </li>
+
+        </ul>
+        <h4>СТ ТОО 181240022550–11-2019</h4>
     </div>
 </div>
 <div class="overlay"></div>
@@ -834,6 +831,18 @@
             }
         ]
     });
+
+    $('.show-more').click(function (e) {
+        e.preventDefault();
+        $('.modal-product').addClass('modal-flex');
+        $('.overlay').addClass('overlay-showed');
+        $('body').addClass('scroll-locked');
+    })
+    $('.close-modal').click(function () {
+        $('.modal-product').removeClass('modal-flex');
+        $('.overlay').removeClass('overlay-showed');
+        $('body').removeClass('scroll-locked');
+    })
 </script>
 </body>
 </html>
